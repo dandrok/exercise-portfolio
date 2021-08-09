@@ -5,7 +5,7 @@ const Main = () => {
     <section className={styles.main}>
       <article>
         <div>
-          <span>Dimitry</span>
+          <span className={styles.name}>Dimitry</span>
           <span>
             <svg
               className={styles.svgOne}
