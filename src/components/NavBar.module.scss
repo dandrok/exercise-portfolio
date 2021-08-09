@@ -1,0 +1,11 @@
+.header {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    .menu {
+      p {
+        border-bottom: solid 2px rgb(240, 24, 24);
+      }
+    }
+  }
+}

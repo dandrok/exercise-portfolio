@@ -1,0 +1,53 @@
+.main {
+  article {
+    font-size: 140px;
+    display: block;
+  }
+}
+
+//arrow svg
+.svgOne {
+  width: 250px;
+  height: auto;
+}
+//eye svg
+.svgTwo {
+  width: 64px;
+  height: auto;
+}
+
+.surname {
+  padding-left: 200px;
+}
+
+.line {
+  background: white;
+  height: 19px;
+  width: 90px;
+  display: block;
+  transform: rotate(-30deg);
+  position: relative;
+  top: 90px;
+}
+.ux {
+  display: flex;
+}
+
+.designer {
+  position: relative;
+  top: 105px;
+}
+
+.designer > p {
+  color: black;
+  position: relative;
+  bottom: 200px;
+}
+.designer > div {
+  background: red;
+  position: relative;
+  height: 93px;
+  bottom: 43px;
+  width: 572px;
+  left: 13px;
+}

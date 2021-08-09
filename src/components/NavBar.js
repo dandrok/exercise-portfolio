@@ -2,12 +2,12 @@ import styles from './NavBar.module.scss'
 
 const NavBar = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <nav>
-        <ul>
-          <li>MY_NAME</li>
-          <li>MENU</li>
-        </ul>
+        <div>MY_BRAND</div>
+        <div className={styles.menu}>
+          <p>MENU</p>
+        </div>
       </nav>
     </header>
   )
