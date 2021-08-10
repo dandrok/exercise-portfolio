@@ -59,3 +59,52 @@
   width: 572px;
   left: 13px;
 }
+
+@media only screen and (max-width: 1100px) {
+  .svgOne {
+    display: none;
+  }
+
+  .surname {
+    padding-left: 0;
+  }
+  .line {
+    display: none;
+  }
+  .designer {
+    position: absolute;
+    left: 0;
+    top: 760px;
+    p {
+      color: black;
+    }
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .main {
+    article {
+      font-size: 100px;
+      display: block;
+      margin-top: 2rem;
+    }
+  }
+  .designer {
+    position: absolute;
+    left: 0;
+    top: 680px;
+    p {
+      color: white;
+    }
+  }
+
+  .designer > div {
+    display: none;
+  }
+  .svgTwo {
+    width: 64px;
+    height: auto;
+    position: relative;
+    bottom: 5px;
+  }
+}
